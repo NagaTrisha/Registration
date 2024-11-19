@@ -93,7 +93,7 @@ public class registration{
 
         registration db = new registration(url, user, password);
 
-   db.createRegistration("Trisha", "trisha.@gmail.com", "2004-07-26", "123456789");
+   db.createRegistration("Trisha", "trisha.tanguturi26@gmail.com", "2004-07-26", "123456789");
    db.readRegistration(1);
    db.updateRegistration(1, "Prasad", "prasad.@gmail.com", "1995-07-20", "9862214321");
    db.deleteRegistration(1);
