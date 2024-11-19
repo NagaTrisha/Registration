@@ -1,0 +1,48 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Application</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>CRUD Application</h1>
+    <section>
+        <h2>Create</h2>
+        <form id="createForm">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="date" id="dob" required>
+            <input type="text" id="phone" placeholder="Phone">
+            <button type="submit">Create</button>
+        </form>
+    </section>
+    <section>
+        <h2>Read</h2>
+        <form id="readForm">
+            <input type="number" id="readId" placeholder="ID" required>
+            <button type="submit">Read</button>
+        </form>
+        <div id="readResult"></div>
+    </section>
+    <section>
+        <h2>Update</h2>
+        <form id="updateForm">
+            <input type="number" id="updateId" placeholder="ID" required>
+            <input type="text" id="updateName" placeholder="Name">
+            <input type="email" id="updateEmail" placeholder="Email">
+            <input type="date" id="updateDob">
+            <input type="text" id="updatePhone" placeholder="Phone">
+            <button type="submit">Update</button>
+        </form>
+    </section>
+    <section>
+        <h2>Delete</h2>
+        <form id="deleteForm">
+            <input type="number" id="deleteId" placeholder="ID" required>
+            <button type ="submit">Delete</button>
+        </form>
+    </section>
+</body>
+</html>
